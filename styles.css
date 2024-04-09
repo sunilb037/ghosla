@@ -17,6 +17,18 @@ h1 {
     margin-top: 50px;
 }
 
+h2 {
+    color: #A52A2A;
+    text-align: center;
+    margin-top: 40px;
+}
+
+h3 {
+    color: #954535;
+    text-align: center;
+    margin-top: 40px;
+}
+
 p {
     color: #343a40;
     font-size: 18px;
