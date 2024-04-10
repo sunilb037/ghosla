@@ -15,7 +15,7 @@
        <P> In the special case where mass isn't created, it may be possible that it's not the amplitude that increases, but the electro-magnetic field that collapses to treat the wave as larger...</P>
         <P>Gravity does not just bend space time only, it also bends electro-magnetic strength field.</p>
     
-     <div class="container">
+<div class="container">
         <h1>Matrix Multiplication Example</h1>
         <p>Enter values for matrices A and B, then click Calculate to perform matrix multiplication.</p>
         <div>
@@ -29,7 +29,6 @@
         <button onclick="calculate()">Calculate</button>
         <div id="result"></div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.2.0/math.min.js"></script>
     <script>
         function calculate() {
@@ -46,7 +45,7 @@
 
             // Display the result
             const resultDiv = document.getElementById('result');
-            resultDiv.innerHTML = '<h2>Result:</h2><pre>' + numeral(result).format('0.00') + '</pre>';
+            resultDiv.innerHTML = '<h2>Result:</h2><pre>' + math.format(result, { precision: 14 }) + '</pre>';
         }
     </script>
 </body>
